@@ -1,0 +1,24 @@
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{ 
+    "firstname": "Brad", 
+    "lastname": "Shaw", 
+    "age": "26", 
+    "gender": "Male" 
+}
+
+###
+GET http://localhost:3000
+
+###
+PATCH http://localhost:3000/642a951c7f917ee007c5d883
+Content-Type: application/json
+
+{
+    "age": 27
+}
+
+###
+DELETE http://localhost:3000/642a8a0ebb2783e0de7f622e

@@ -1,0 +1,6 @@
+1. Download and install Git from https://git-scm.com/downloads
+2. Run Git Bash
+3. Write these commands
+git config --global user.name "<Your Name>"
+git config --global user.email "<Your Email>"
+
